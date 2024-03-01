@@ -1,0 +1,18 @@
+.appContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.sideBar {
+    width: 250px;
+    height: 100%;
+}
+
+.main {
+    width: calc(100% - 250px);
+    height: 100%;
+}
+
+.mainContent {
+    height: calc(100% - 61px);
+}

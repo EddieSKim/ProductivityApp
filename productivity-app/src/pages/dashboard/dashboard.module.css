@@ -1,0 +1,74 @@
+.dashBoardContainer {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.taskContainer {
+    width: 70%;
+    border-right: 1px solid #C8CBD9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.todoContainer {
+    width: 30%;
+    margin: 10px;
+}
+
+.currentDate {
+    font-size: 1.1rem;
+}
+
+.todoTitle {
+    font-size: 1.1rem;
+}
+
+.newButton {
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    color: #5A6ACF;
+}
+
+.taskFormModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskContentWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskPieChartContainer {
+    width: 50%;
+    height: 50%;
+}
