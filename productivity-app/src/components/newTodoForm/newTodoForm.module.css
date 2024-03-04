@@ -1,14 +1,21 @@
-.taskFormContainer {
+.todoFormContainer {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: "Poppins", sans-serif;
+
 }
 
-.categorySelect {
+.formComponent {
+    font-family: "Poppins", sans-serif;
     width: 100%;
     margin-bottom: 20px;
+}
+
+.prioritySelector {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .selectorItem {
@@ -17,14 +24,9 @@
     align-items: center;
 }
 
-.taskTextInput {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
 .submitButton {
-    width: 100%;
     font-family: "Poppins", sans-serif;
+    width: 100%;
     margin-bottom: 20px;
     background-color: #5A6ACF;
 }

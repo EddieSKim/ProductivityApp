@@ -72,3 +72,7 @@
     width: 50%;
     height: 50%;
 }
+
+.cancelModalButton {
+    margin-bottom: 20px;
+}
